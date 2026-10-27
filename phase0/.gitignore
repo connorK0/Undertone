@@ -1,0 +1,5 @@
+.env
+.venv/
+mood_cache*.json
+__pycache__/
+*.pyc
