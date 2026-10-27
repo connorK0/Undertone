@@ -1,0 +1,23 @@
+name: music_book_player
+description: >-
+  Plays a book's generated score from the reader's position: crossfades,
+  take rotation, lead-ins and the warm-up ramp, on flutter_soloud, driven by
+  music_book_core's ScoreFollower.
+version: 0.1.0
+publish_to: none
+
+environment:
+  sdk: ^3.13.2
+  flutter: ">=3.35.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_soloud: ^5.0.2
+  music_book_core:
+    path: ../../dart
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0

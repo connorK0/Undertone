@@ -1,0 +1,28 @@
+[project]
+name = "music-book-gen"
+version = "0.1.0"
+description = "Music for books, the generation half: prompts, MusicGen, the audibility guard, the movement cull and register gate, measurement, and cloud offload."
+requires-python = ">=3.11"
+# The core -- jobs, import, cull, measurement -- needs only these. Generating
+# needs a GPU stack, which a machine that only imports results does not.
+dependencies = [
+    "numpy>=2.0",
+    "soundfile>=0.12",
+]
+
+[project.optional-dependencies]
+# Pinned to what phase1/.venv runs, so beds made here and there are made by
+# the same model code.
+generate = ["torch==2.6.0", "transformers==5.16.1"]
+kaggle = ["kaggle>=2.2"]
+modal = ["modal>=1.5"]
+
+[project.scripts]
+music-book-gen = "music_book_gen.__main__:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["music_book_gen"]

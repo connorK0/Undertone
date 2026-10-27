@@ -1,0 +1,28 @@
+name: music_book_core
+description: >-
+  Music for books, minus the reader and the audio device: ingest, arc
+  scanning, mood tagging with a pluggable model, bed planning, and the
+  runtime that decides what should sound where the reader is.
+version: 0.1.0
+publish_to: none
+
+environment:
+  sdk: ^3.13.2
+
+# Only what the code extracted from the reader app already used, and nothing
+# that reaches Flutter: this package runs in a command-line tool, on a server,
+# and inside a Flutter app on any platform, iOS included. Constraints match
+# the reader app's resolved versions, so an app can depend on both.
+dependencies:
+  archive: ^4.2.0
+  crypto: ^3.0.7
+  http: ^1.6.0
+  path: ^1.9.1
+  xml: ^7.0.1
+
+dev_dependencies:
+  lints: ^6.1.0
+  test: ^1.25.0
+
+executables:
+  music_book: music_book
