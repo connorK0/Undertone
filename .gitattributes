@@ -1,0 +1,10 @@
+# Text is stored with LF line endings and checked out in the platform's own.
+* text=auto
+
+# Audio, books and images are binary: never diffed or converted.
+*.wav binary
+*.mp3 binary
+*.ogg binary
+*.epub binary
+*.png binary
+*.ico binary

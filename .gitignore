@@ -1,0 +1,49 @@
+# Private working notes and local tool settings: they stay on this machine.
+/SUMMARY.md
+/HANDOFF.md
+/PASSOFF.md
+/.claude/
+
+# Secrets and credentials. Keys live in .env, which is never committed;
+# .env.example shows what goes in it.
+.env
+.env.*
+!.env.example
+kaggle.json
+.modal.toml
+
+# Book data and generated music. A prepared book (a workspace, or a pack made
+# from one) carries the book's full text, and generated beds come from a
+# non-commercially licensed model. Neither belongs in the repository.
+*.db
+*.sqlite
+*.zip
+**/arc-[0-9][0-9][0-9]/
+*.raw.wav
+mood_cache*.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# Dart and Flutter
+.dart_tool/
+.packages
+.flutter-plugins
+.flutter-plugins-dependencies
+build/
+coverage/
+
+# Editors and operating systems
+.idea/
+*.iml
+.vscode/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
