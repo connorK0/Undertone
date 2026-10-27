@@ -1,0 +1,28 @@
+name: music_book_reader
+description: "Undertone for iOS: a reader whose score follows the page."
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.13.2
+
+# The framework's two packages, and three the reader app already uses. No
+# model runs on the phone: books arrive prepared (see lib/shelf.dart).
+dependencies:
+  flutter:
+    sdk: flutter
+  music_book_core:
+    path: ../framework/dart
+  music_book_player:
+    path: ../framework/flutter/music_book_player
+  file_picker: ^12.2.0
+  path: ^1.9.1
+  path_provider: ^2.1.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
