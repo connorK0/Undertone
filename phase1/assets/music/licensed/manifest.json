@@ -1,0 +1,129 @@
+{
+  "library": "licensed",
+  "note": "Downloaded from OpenGameArt by tool/fetch_licensed_loops.py. CC0 and CC-BY only. Nothing here has been auditioned, loop-checked or level-matched -- see that script's docstring.",
+  "loops": [
+    {
+      "mood": "calm",
+      "file": "calm.mp3",
+      "bytes": 534852,
+      "title": "Crystal Cave (song18)",
+      "author": "cynicmusic",
+      "license": "CC0",
+      "all_licenses": [
+        "CC0"
+      ],
+      "attribution_required": false,
+      "attribution_text": "Credit pixelsphere.org / The Cynic Project. Please link to my website and notify me if you use the music.",
+      "page": "https://opengameart.org/content/crystal-cave-song18",
+      "source_url": "https://opengameart.org/sites/default/files/song18.mp3"
+    },
+    {
+      "mood": "melancholic",
+      "file": "melancholic.ogg",
+      "bytes": 1972219,
+      "title": "Tragic ambient main menu",
+      "author": "HaelDB",
+      "license": "CC0",
+      "all_licenses": [
+        "CC0",
+        "OGA-BY 3.0"
+      ],
+      "attribution_required": false,
+      "attribution_text": null,
+      "page": "https://opengameart.org/content/tragic-ambient-main-menu",
+      "source_url": "https://opengameart.org/sites/default/files/ambientmain_0.ogg"
+    },
+    {
+      "mood": "neutral",
+      "file": "neutral.wav",
+      "bytes": 3963916,
+      "title": "Loading screen loop",
+      "author": "HaelDB",
+      "license": "CC0",
+      "all_licenses": [
+        "CC0"
+      ],
+      "attribution_required": false,
+      "attribution_text": null,
+      "page": "https://opengameart.org/content/loading-screen-loop",
+      "source_url": "https://opengameart.org/sites/default/files/b423b42.wav"
+    },
+    {
+      "mood": "ominous",
+      "file": "ominous.ogg",
+      "bytes": 1184697,
+      "title": "Dark Ambient Loop 13",
+      "author": "MundoSound",
+      "license": "CC-BY 3.0",
+      "all_licenses": [
+        "CC-BY 3.0",
+        "OGA-BY 3.0"
+      ],
+      "attribution_required": true,
+      "attribution_text": null,
+      "page": "https://opengameart.org/content/dark-ambient-loop-13",
+      "source_url": "https://opengameart.org/sites/default/files/Dark%20_Atmosphere13_Looped_OGG.ogg"
+    },
+    {
+      "mood": "romantic",
+      "file": "romantic.mp3",
+      "bytes": 3385581,
+      "title": "The Field Of Dreams",
+      "author": "pauliuw",
+      "license": "CC0",
+      "all_licenses": [
+        "CC0"
+      ],
+      "attribution_required": false,
+      "attribution_text": null,
+      "page": "https://opengameart.org/content/the-field-of-dreams",
+      "source_url": "https://opengameart.org/sites/default/files/the_field_of_dreams.mp3"
+    },
+    {
+      "mood": "tense",
+      "file": "tense.mp3",
+      "bytes": 6486643,
+      "title": "Perpetual Tension",
+      "author": "Zander Noriega",
+      "license": "CC-BY 3.0",
+      "all_licenses": [
+        "CC-BY 3.0"
+      ],
+      "attribution_required": true,
+      "attribution_text": "Credit me as Zander Noriega. And, if sensible (i.e. you're presenting your credits in HTML), link my name to my Twitter, or my OGA profile.",
+      "page": "https://opengameart.org/content/perpetual-tension",
+      "source_url": "https://opengameart.org/sites/default/files/Zander%20Noriega%20-%20Perpetual%20Tension.mp3"
+    },
+    {
+      "mood": "triumphant",
+      "file": "triumphant.mp3",
+      "bytes": 2026231,
+      "title": "Awake! (Megawall-10)",
+      "author": "cynicmusic",
+      "license": "CC0",
+      "all_licenses": [
+        "CC0"
+      ],
+      "attribution_required": false,
+      "attribution_text": "http://cynicmusic.com http://pixelsphere.org",
+      "page": "https://opengameart.org/content/awake-megawall-10",
+      "source_url": "https://opengameart.org/sites/default/files/awake10_megaWall_0.mp3"
+    },
+    {
+      "mood": "whimsical",
+      "file": "whimsical.mp3",
+      "bytes": 3714527,
+      "title": "Enchanted Tiki 86",
+      "author": "cynicmusic",
+      "license": "CC0",
+      "all_licenses": [
+        "CC0"
+      ],
+      "attribution_required": false,
+      "attribution_text": null,
+      "page": "https://opengameart.org/content/enchanted-tiki-86",
+      "source_url": "https://opengameart.org/sites/default/files/enchanted%20tiki%2086.mp3"
+    }
+  ],
+  "skipped": []
+}
